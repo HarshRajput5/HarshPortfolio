@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css'
+import ServicesSection from './ServicesSection';
 
 function App() {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -71,11 +72,11 @@ function App() {
               <img src="https://pngimg.com/d/businessman_PNG6564.png" alt="John Doe" className="hero-img" />
               <div className="hero-badge-circle">HIRE ME</div>
               <div className="hero-badge-ux">UI/UX Designer</div>
-              <div className="hero-badge-role">Product Designer</div>
+              <div className="hero-badge-role">Flutter Developer</div>
             </div>
           </div>
         </section>
-        {/* Sections will be added here in the next steps */}
+        <ServicesSection />
       </main>
     </div>
   )
