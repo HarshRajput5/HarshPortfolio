@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import './App.css'
 import ServicesSection from './ServicesSection';
+import AboutMeSection from './AboutMeSection';
+import FavoriteToolsSection from './FavoriteToolsSection';
 
 function App() {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -77,6 +79,8 @@ function App() {
           </div>
         </section>
         <ServicesSection />
+        <AboutMeSection />
+        <FavoriteToolsSection />
       </main>
     </div>
   )

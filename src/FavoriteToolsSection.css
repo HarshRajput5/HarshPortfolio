@@ -1,0 +1,84 @@
+.favtools-section {
+  text-align: center;
+  margin: 60px 0 40px 0;
+}
+
+.favtools-label {
+  color: #bfa14a;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.favtools-heading {
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-bottom: 40px;
+  line-height: 1.2;
+}
+
+.favtools-highlight {
+  color: #f5b544;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.favtools-bold {
+  color: #222;
+  font-weight: 700;
+}
+
+.favtools-row {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+
+.favtools-card {
+  background: #fafafa;
+  border-radius: 32px;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.04);
+  padding: 32px 24px 20px 24px;
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s;
+}
+
+.favtools-card:hover {
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.10);
+}
+
+.favtools-icon-bg {
+  background: #fff;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.06);
+}
+
+.favtools-icon {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+
+.favtools-percent {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.favtools-name {
+  font-size: 1.05rem;
+  color: #888;
+  font-weight: 500;
+  margin-top: 2px;
+} 

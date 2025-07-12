@@ -1,0 +1,245 @@
+.aboutme-section {
+  display: flex;
+  background: #35543B;
+  color: #fff;
+  padding: 60px 40px;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+.aboutme-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutme-image-circle {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  background: #F6B93B;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutme-img {
+  width: 260px;
+  height: 320px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 30px;
+  z-index: 1;
+  position: relative;
+}
+.skill-tags-brick {
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 8px 12px;
+  justify-content: center;
+  z-index: 2;
+}
+
+.skill-tag {
+  position: absolute;
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  z-index: 2;
+  color: #35543B;
+  white-space: nowrap;
+}
+.tag1 {
+  background: #F6B93B;
+  left: 90px;
+  bottom: 110px;
+  margin: 5px;
+}
+.tag2 {
+  background: #4B6B50;
+  left: 30px;
+  bottom: 80px;
+  color: #fff;
+  margin: 5px;
+}
+.tag3 {
+  background: #F6B93B;
+  left: 170px;
+  bottom: 80px;
+  margin: 5px;
+}
+.tag4 {
+  background: #F6B93B;
+  left: 10px;
+  bottom: 50px;
+  margin: 5px;
+}
+.tag5 {
+  background: #fff;
+  left: 120px;
+  bottom: 50px;
+  color: #35543B;
+  margin: 5px;
+}
+.tag6 {
+  background: #4B6B50;
+  left: 210px;
+  bottom: 50px;
+  color: #fff;
+  margin: 5px;
+}
+.tag7 {
+  background: #F6B93B;
+  left: 60px;
+  bottom: 20px;
+  margin: 5px;
+}
+
+/* Offset every even row for brick effect */
+.skill-tags-brick .skill-tag:nth-child(4),
+.skill-tags-brick .skill-tag:nth-child(5),
+.skill-tags-brick .skill-tag:nth-child(6) {
+  margin-left: 24px;
+}
+
+.aboutme-right {
+  flex: 1.2;
+  padding-left: 60px;
+}
+.aboutme-label {
+  color: #F6B93B;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.aboutme-highlight {
+  color: #F6B93B;
+  font-style: italic;
+}
+.aboutme-desc {
+  color: #d3d3d3;
+  margin: 18px 0 32px 0;
+  font-size: 17px;
+  max-width: 500px;
+}
+.aboutme-stats {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 32px;
+}
+.stat-number {
+  color: #F6B93B;
+  font-size: 28px;
+  font-weight: 700;
+}
+.aboutme-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.aboutme-cv-btn {
+  background: #F6B93B;
+  color: #35543B;
+  border: none;
+  border-radius: 24px;
+  padding: 12px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.aboutme-cv-btn:hover {
+  background: #fff;
+  color: #F6B93B;
+}
+.aboutme-signature {
+  font-family: 'Dancing Script', cursive;
+  font-size: 28px;
+  color: #F6B93B;
+  margin-left: 12px;
+}
+
+@media (max-width: 900px) {
+  .aboutme-section {
+    flex-direction: column;
+    padding: 40px 10px;
+    min-height: unset;
+  }
+  .aboutme-left, .aboutme-right {
+    flex: unset;
+    padding-left: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutme-right {
+    padding-top: 32px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .aboutme-section {
+    padding: 24px 2vw;
+  }
+  .aboutme-image-circle {
+    width: 200px;
+    height: 200px;
+  }
+  .aboutme-img {
+    width: 140px;
+    height: 170px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 18px;
+    z-index: 1;
+    position: relative;
+  }
+  .skill-tag {
+    font-size: 10px;
+    padding: 3px 8px;
+  }
+  .tag1 { left: 45px; bottom: 60px; }
+  .tag2 { left: 10px; bottom: 45px; }
+  .tag3 { left: 100px; bottom: 45px; }
+  .tag4 { left: 0px; bottom: 25px; }
+  .tag5 { left: 60px; bottom: 25px; }
+  .tag6 { left: 120px; bottom: 25px; }
+  .tag7 { left: 30px; bottom: 8px; }
+  .aboutme-label {
+    font-size: 15px;
+  }
+  .aboutme-desc {
+    font-size: 14px;
+    margin: 12px 0 20px 0;
+  }
+  .aboutme-stats {
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+  .stat-number {
+    font-size: 20px;
+  }
+  .aboutme-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .aboutme-cv-btn {
+    padding: 8px 18px;
+    font-size: 14px;
+  }
+  .aboutme-signature {
+    font-size: 20px;
+    margin-left: 0;
+  }
+} 
