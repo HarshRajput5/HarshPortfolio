@@ -1,4 +1,4 @@
-import './LatestProjectsSection.css';
+import '../../styles/components/home/LatestProjectsSection.css';
 
 const projects = [
   {

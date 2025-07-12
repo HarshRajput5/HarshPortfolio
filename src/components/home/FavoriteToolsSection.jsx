@@ -1,4 +1,4 @@
-import './FavoriteToolsSection.css';
+import '../../styles/components/home/FavoriteToolsSection.css';
 
 const tools = [
   {

@@ -1,4 +1,4 @@
-import './AboutMeSection.css';
+import '../../styles/components/home/AboutMeSection.css';
 
 export default function AboutMeSection() {
   return (
