@@ -4,6 +4,7 @@ import ServicesSection from './ServicesSection';
 import AboutMeSection from './AboutMeSection';
 import FavoriteToolsSection from './FavoriteToolsSection';
 import LatestProjectsSection from './LatestProjectsSection';
+import Footer from './Footer';
 
 function App() {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -84,6 +85,7 @@ function App() {
         <FavoriteToolsSection />
         <LatestProjectsSection />
       </main>
+      <Footer />
     </div>
   )
 }
