@@ -110,7 +110,7 @@
 
 .aboutme-right {
   flex: 1.2;
-  padding-left: 60px;
+  padding-left: 40px;
 }
 .aboutme-label {
   color: #F6B93B;
@@ -118,6 +118,12 @@
   margin-bottom: 10px;
   font-size: 18px;
 }
+.aboutme-right h1 {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
 .aboutme-highlight {
   color: #F6B93B;
   font-style: italic;
@@ -185,6 +191,11 @@
     padding-top: 32px;
     text-align: center;
   }
+  .aboutme-right h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 @media (max-width: 600px) {
@@ -203,6 +214,11 @@
     border-radius: 18px;
     z-index: 1;
     position: relative;
+  }
+  .aboutme-right h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
   }
   .skill-tag {
     font-size: 10px;

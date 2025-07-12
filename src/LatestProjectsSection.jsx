@@ -11,6 +11,11 @@ const projects = [
     tags: ['UI/UX Design', 'Web Design', 'Wireframe'],
     img: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80',
   },
+  {
+    title: 'Beauty Product Mobile App Landing Page Design',
+    tags: ['UI/UX Design', 'Web Design', 'Wireframe'],
+    img: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80',
+  },
 ];
 
 export default function LatestProjectsSection() {
