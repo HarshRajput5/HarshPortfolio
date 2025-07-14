@@ -7,7 +7,8 @@ const HeroSection = () => {
             <div className="hero-label">Hello There!</div>
             <h1>
               I'm <span className="highlight underline">Harsh Rajput,</span><br />
-              Flutter Developer<br />
+              Full-Service App <br />
+              & Web Developer<br />
               Based in INDIA.
             </h1>
             <p className="hero-desc">
@@ -24,7 +25,7 @@ const HeroSection = () => {
             <div className="hero-image-wrapper">
               <img src="src\assets\AI_Character.png" alt="John Doe" className="hero-img" />
               <div className="hero-badge-circle">HIRE ME</div>
-              <div className="hero-badge-ux">UI/UX Designer</div>
+              <div className="hero-badge-ux">Web Developer</div>
               <div className="hero-badge-role">Flutter Developer</div>
             </div>
           </div>

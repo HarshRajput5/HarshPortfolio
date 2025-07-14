@@ -41,7 +41,7 @@ export default function FavoriteToolsSection() {
       <h2 className="favtools-heading">
         <span className="favtools-highlight">Exploring the Tools</span>
         <br />
-        <span className="favtools-bold">Behind My Designs</span>
+        <span className="favtools-bold">Behind My Projects</span>
       </h2>
       <div className="favtools-row">
         {tools.map((tool) => (

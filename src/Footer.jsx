@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { FaFacebookF, FaBehance, FaYoutube, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -24,12 +25,11 @@ export default function Footer() {
           <div className="footer-col">
             <div className="footer-col-title">Navigation</div>
             <ul>
-              <li>Home</li>
-              <li>Services</li>
-              <li>About</li>
-              <li>Projects</li>
-              <li>Blogs</li>
-              <li>FAQs</li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/service">Services</Link></li>
+              <li><Link to="/" state={{ scrollTo: 'about' }}>About</Link></li>
+              <li><Link to="/projects">Projects</Link></li>
+              <li><Link to="/" state={{ scrollTo: 'contact' }}>Contact</Link></li>
             </ul>
           </div>
           <div className="footer-col">

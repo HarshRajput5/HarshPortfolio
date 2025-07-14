@@ -103,6 +103,15 @@
   font-size: 0.98rem;
 }
 
+.footer-col ul li a {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-col ul li a:hover {
+  color: #000;
+}
+
 .footer-newsletter {
   display: flex;
   align-items: center;
