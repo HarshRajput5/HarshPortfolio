@@ -192,21 +192,23 @@
   }
   .services-cards {
     display: flex;
-    flex-direction: row;
+    flex-direction: column !important;
     gap: 1.2rem;
-    overflow-x: auto;
-    overflow-y: hidden;
+    overflow-x: unset;
+    overflow-y: unset;
     flex-wrap: nowrap;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    flex: 0 0 auto;
-    min-width: 220px;
-    max-width: 100vw;
-    width: 100vw;
-    padding: 1rem 0.7rem 0.7rem 0.7rem;
+    /* min-width: unset; */
+    /* max-width: 100vw; */
+    width: 95vw;
+    padding: 1rem 0.7rem 0.7rem 0.4rem;
     border-radius: 1rem;
+    align-items: center;
   }
-
+  .service-card {
+    width: 90vw;
+    max-width: 400px;
+    min-width: 220px;
+  }
   .service-card:last-child {
     margin-right: 2rem;
   }

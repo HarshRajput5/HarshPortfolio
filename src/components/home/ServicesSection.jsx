@@ -3,21 +3,22 @@ import '../../styles/components/home/ServicesSection.css';
 
 const services = [
   {
-    icon: '🖥️',
-    title: 'UI/UX Design',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ...',
+    icon: '📱',
+    title: 'Mobile App Development',
+    desc: 'Custom mobile applications built for Android and iOS with sleek performance, modern UI, and seamless user experience.',
+  },
+  {
+    icon: '💻',
+    title: 'Website Development',
+    desc: 'Responsive, fast, and SEO-optimized websites tailored to your business needs using the latest technologies.',
   },
   {
     icon: '🎨',
-    title: 'Application Design',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ...',
-  },
-  {
-    icon: '🗂️',
-    title: 'Website Design',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ...',
+    title: 'UI/UX Design',
+    desc: 'Intuitive and engaging designs focused on enhancing user interaction and delivering visually appealing interfaces.',
   },
 ];
+
 
 export default function ServicesSection() {
   return (
@@ -42,7 +43,7 @@ export default function ServicesSection() {
             <span className="highlight">Services</span> <span className="normal">I Provide</span>
           </h2>
         </div>
-        <button className="services-viewall">
+        <button className="services-viewall" onClick={() => window.location.href = '/service'}>
           <span>View All Services</span>
           <span className="arrow">→</span>
         </button>
@@ -53,7 +54,7 @@ export default function ServicesSection() {
             <div className="service-icon">{s.icon}</div>
             <div className="service-title">{s.title}</div>
             <div className="service-desc">{s.desc}</div>
-            <a href="#" className="service-learn">Learn more <span className="arrow">→</span></a>
+            <a href="#" className="service-learn" onClick={() => window.location.href = '/service'}>Learn more <span className="arrow">→</span></a>
           </div>
         ))}
       </div>

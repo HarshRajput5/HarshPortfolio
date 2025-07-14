@@ -2,40 +2,41 @@ import '../../styles/components/home/FavoriteToolsSection.css';
 
 const tools = [
   {
+    name: 'Flutter',
+    percent: '95%',
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg',
+  },
+  {
+    name: 'Dart',
+    percent: '90%',
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg',
+  },
+  {
+    name: 'Firebase',
+    percent: '90%',
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg',
+  },
+  {
     name: 'Figma',
-    percent: '98%',
+    percent: '80%',
     img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg',
   },
   {
-    name: 'Sketch',
-    percent: '92%',
-    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sketch/sketch-original.svg',
-  },
-  {
-    name: 'Photoshop',
-    percent: '90%',
-    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg',
-  },
-  {
-    name: 'After Effects',
+    name: 'Git',
     percent: '85%',
-    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-original.svg',
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
   },
   {
-    name: 'Storybook',
-    percent: '90%',
-    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg',
-  },
-  {
-    name: 'InVision',
+    name: 'VS Code',
     percent: '95%',
-    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/invision/invision-original.svg',
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
   },
 ];
 
+
 export default function FavoriteToolsSection() {
   return (
-    <section className="favtools-section">
+    <section className="favtools-section"  id="skills">
       <div className="favtools-label">— My Favorite Tools</div>
       <h2 className="favtools-heading">
         <span className="favtools-highlight">Exploring the Tools</span>

@@ -14,15 +14,15 @@ const HeroSection = () => {
             I'm Harsh Rajput, a passionate Flutter Developer building scalable, real-time mobile apps for startups and companies.
             </p>
             <div className="hero-buttons">
-              <button className="btn-primary">
+              <button className="btn-primary" onClick={() => window.location.href = '/projects'}>
                 View My Portfolio <span className="play-icon">▶</span>
               </button>
-              <button className="btn-outline">Hire Me</button>
+              {/* <button className="btn-outline">Hire Me</button> */}
             </div>
           </div>
           <div className="hero-image-block">
             <div className="hero-image-wrapper">
-              <img src="https://pngimg.com/d/businessman_PNG6564.png" alt="John Doe" className="hero-img" />
+              <img src="src\assets\AI_Character.png" alt="John Doe" className="hero-img" />
               <div className="hero-badge-circle">HIRE ME</div>
               <div className="hero-badge-ux">UI/UX Designer</div>
               <div className="hero-badge-role">Flutter Developer</div>

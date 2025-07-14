@@ -4,13 +4,13 @@ import { FaFacebookF, FaBehance, FaYoutube, FaTwitter, FaInstagram } from 'react
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer"  id="contact">
       <div className="footer-main">
         <div className="footer-brand">
           {/* <div className="footer-avatar">O</div> */}
           <div>
             <div className="footer-name">Harsh Rajput.</div>
-            <div className="footer-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            <div className="footer-desc">I help businesses turn ideas into fast, beautiful, and scalable mobile apps using Flutter. From sleek UI to smooth functionality, I deliver clean, maintainable code that works. Let’s build something your users will love!</div>
             <div className="footer-socials">
               <a href="#" className="footer-social"><FaFacebookF /></a>
               <a href="#" className="footer-social"><FaBehance /></a>
@@ -35,25 +35,24 @@ export default function Footer() {
           <div className="footer-col">
             <div className="footer-col-title">Contact</div>
             <ul>
-              <li>+0123–456–789</li>
-              <li>www.example.com</li>
-              <li>example@gmail.com</li>
-              <li>2464 Royal Ln. Mesa, New Jersey 45463</li>
+              <li>+91 9824156034</li>
+              <li>rajputharsh9825@gmail.com</li>
+              <li>Vadodara, Gujarat, India</li>
             </ul>
           </div>
-          <div className="footer-col">
+          {/* <div className="footer-col">
             <div className="footer-col-title">Get the latest information</div>
             <form className="footer-newsletter">
               <input type="email" placeholder="Email address" />
               <button type="submit">&#8594;</button>
             </form>
-          </div>
+          </div> */}
         </div>
-        <div className="footer-blogs-btn">
+        {/* <div className="footer-blogs-btn">
           <button>
             View All Blogs <span className="footer-arrow">→</span>
           </button>
-        </div>
+        </div> */}
       </div>
       <div className="footer-bottom">
         <div>Copyright © 2024 <span className="footer-highlight">Harsh Rajput.</span> All Rights Reserved.</div>
