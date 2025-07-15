@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/components/home/ServicesSection.css';
+import { useNavigate } from 'react-router-dom';
 
 const services = [
   {
@@ -21,6 +22,7 @@ const services = [
 
 
 export default function ServicesSection() {
+  const navigate = useNavigate();
   return (
     <section className="services-section">
       <div className="services-tabs-scroll hide-on-mobile">
@@ -43,7 +45,7 @@ export default function ServicesSection() {
             <span className="highlight">Services</span> <span className="normal">I Provide</span>
           </h2>
         </div>
-        <button className="services-viewall" onClick={() => window.location.href = '/service'}>
+        <button className="services-viewall" onClick={() => navigate('/service')}>
           <span>View All Services</span>
           <span className="arrow">→</span>
         </button>
@@ -54,7 +56,7 @@ export default function ServicesSection() {
             <div className="service-icon">{s.icon}</div>
             <div className="service-title">{s.title}</div>
             <div className="service-desc">{s.desc}</div>
-            <a href="#" className="service-learn" onClick={() => window.location.href = '/service'}>Learn more <span className="arrow">→</span></a>
+            <a href="#" className="service-learn"  onClick={() => navigate('/service')}>Learn more <span className="arrow">→</span></a>
           </div>
         ))}
       </div>

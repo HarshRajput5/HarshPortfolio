@@ -1,6 +1,8 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const HeroSection = () => {
+  const navigate = useNavigate();
   return (
     <section className="hero-section">
           <div className="hero-content">
@@ -15,7 +17,7 @@ const HeroSection = () => {
             I'm Harsh Rajput, a passionate Flutter Developer building scalable, real-time mobile apps for startups and companies.
             </p>
             <div className="hero-buttons">
-              <button className="btn-primary" onClick={() => window.location.href = '/projects'}>
+              <button className="btn-primary"  onClick={() => navigate('/projects')}>
                 View My Portfolio <span className="play-icon">▶</span>
               </button>
               {/* <button className="btn-outline">Hire Me</button> */}
