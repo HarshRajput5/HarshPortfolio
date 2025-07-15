@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import '../styles/components/home/LatestProjectsSection.css';
 
 const projects = [
@@ -36,27 +37,34 @@ const projects = [
 
 export default function Project() {
   return (
-    <section className="latestprojects-section">
-      {/* <div className="latestprojects-label"> My Portfolio</div> */}
-      <h2 className="latestprojects-heading" style={{textAlign: 'center', width: '100%'}}>
-        My <span className="latestprojects-bold">Latest</span> <span className="latestprojects-highlight">Projects</span>
-      </h2>
-      <div className="latestprojects-row">
-        {projects.map((project, idx) => (
-          <div className="latestprojects-card" key={project.title}>
-            <img src={project.img} alt={project.title} className="latestprojects-img" />
-            <div className="latestprojects-tags">
-              {project.tags.map((tag) => (
-                <span className="latestprojects-tag" key={tag}>{tag}</span>
-              ))}
+    <>
+      <Helmet>
+        <title>Projects | Harsh Rajput - Portfolio</title>
+        <meta name="description" content="Portfolio of Harsh Rajput: Freelancer, Flutter, Android, iOS, React Developer. Explore my latest projects in mobile and web development." />
+        <meta name="keywords" content="Projects, Portfolio, Harsh Rajput, Freelancer, Flutter Developer, Android Developer, iOS Developer, React Developer, Website Developer, Mobile App Development, Web Development" />
+      </Helmet>
+      <section className="latestprojects-section">
+        {/* <div className="latestprojects-label"> My Portfolio</div> */}
+        <h2 className="latestprojects-heading" style={{textAlign: 'center', width: '100%'}}>
+          My <span className="latestprojects-bold">Latest</span> <span className="latestprojects-highlight">Projects</span>
+        </h2>
+        <div className="latestprojects-row">
+          {projects.map((project, idx) => (
+            <div className="latestprojects-card" key={project.title}>
+              <img src={project.img} alt={project.title} className="latestprojects-img" />
+              <div className="latestprojects-tags">
+                {project.tags.map((tag) => (
+                  <span className="latestprojects-tag" key={tag}>{tag}</span>
+                ))}
+              </div>
+              <div className="latestprojects-title">{project.title}</div>
             </div>
-            <div className="latestprojects-title">{project.title}</div>
-          </div>
-        ))}
-      </div>
-      <div style={{display: 'flex', justifyContent: 'center', marginTop: 32}}>
-        <button style={{background: '#ffc32b', color: '#234c2e', border: 'none', borderRadius: 32, padding: '14px 36px', fontWeight: 700, fontSize: '1.1rem', cursor: 'pointer', boxShadow: '0 2px 8px rgba(34, 76, 46, 0.10)'}}>Load More Projects</button>
-      </div>
-    </section>
+          ))}
+        </div>
+        <div style={{display: 'flex', justifyContent: 'center', marginTop: 32}}>
+          <button style={{background: '#ffc32b', color: '#234c2e', border: 'none', borderRadius: 32, padding: '14px 36px', fontWeight: 700, fontSize: '1.1rem', cursor: 'pointer', boxShadow: '0 2px 8px rgba(34, 76, 46, 0.10)'}}>Load More Projects</button>
+        </div>
+      </section>
+    </>
   );
 } 
