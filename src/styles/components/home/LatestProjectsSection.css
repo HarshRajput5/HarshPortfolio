@@ -13,7 +13,7 @@
     padding-right: 12px;
   }
   .latestprojects-img {
-    height: 200px;
+    height: 300px;
     width: 90vw;
 }
   .latestprojects-card {
@@ -211,7 +211,7 @@
     max-width: 100%;
   }
   .latestprojects-img {
-    height: 200px;
+    height: 300px;
   }
   .latestprojects-viewall {
     width: 100%;
