@@ -1,6 +1,6 @@
 import React from 'react';
 import './Service.css';
-import { Helmet } from 'react-helmet-async';
+import { Title, Meta } from 'react-head';
 
 const services = [
   {
@@ -59,11 +59,9 @@ const services = [
 export default function Service() {
   return (
     <>
-      <Helmet>
-        <title>Services | Harsh Rajput - Flutter, Android, iOS, React Developer</title>
-        <meta name="description" content="Explore services by Harsh Rajput: Flutter, Android, iOS, React, and Website Development. High-quality, scalable, and beautiful apps for your business." />
-        <meta name="keywords" content="Services, Flutter Developer, Android Developer, iOS Developer, React Developer, Website Developer, Mobile App Development, Web Development, Harsh Rajput, Freelancer" />
-      </Helmet>
+      <Title>Services | Harsh Rajput - Flutter, Android, iOS, React Developer</Title>
+      <Meta name="description" content="Explore services by Harsh Rajput: Flutter, Android, iOS, React, and Website Development. High-quality, scalable, and beautiful apps for your business." />
+      <Meta name="keywords" content="Services, Flutter Developer, Android Developer, iOS Developer, React Developer, Website Developer, Mobile App Development, Web Development, Harsh Rajput, Freelancer" />
       <main className="service-main">
         <div className="service-header">
           <span className="service-section-label">— Services</span>

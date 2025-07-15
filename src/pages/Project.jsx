@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import { Title, Meta } from 'react-head';
 import '../styles/components/home/LatestProjectsSection.css';
 
 const projects = [
@@ -38,11 +38,9 @@ const projects = [
 export default function Project() {
   return (
     <>
-      <Helmet>
-        <title>Projects | Harsh Rajput - Portfolio</title>
-        <meta name="description" content="Portfolio of Harsh Rajput: Freelancer, Flutter, Android, iOS, React Developer. Explore my latest projects in mobile and web development." />
-        <meta name="keywords" content="Projects, Portfolio, Harsh Rajput, Freelancer, Flutter Developer, Android Developer, iOS Developer, React Developer, Website Developer, Mobile App Development, Web Development" />
-      </Helmet>
+      <Title>Projects | Harsh Rajput - Portfolio</Title>
+      <Meta name="description" content="Portfolio of Harsh Rajput: Freelancer, Flutter, Android, iOS, React Developer. Explore my latest projects in mobile and web development." />
+      <Meta name="keywords" content="Projects, Portfolio, Harsh Rajput, Freelancer, Flutter Developer, Android Developer, iOS Developer, React Developer, Website Developer, Mobile App Development, Web Development" />
       <section className="latestprojects-section">
         {/* <div className="latestprojects-label"> My Portfolio</div> */}
         <h2 className="latestprojects-heading" style={{textAlign: 'center', width: '100%'}}>
