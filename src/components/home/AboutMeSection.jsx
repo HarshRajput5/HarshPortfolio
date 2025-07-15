@@ -5,7 +5,7 @@ export default function AboutMeSection() {
     <section className="aboutme-section" id="about">
       <div className="aboutme-left">
         <div className="aboutme-image-circle">
-          <img src="src\assets\AI_Character.png" alt="John Doe" className="aboutme-img" />
+          <img src="https://firebasestorage.googleapis.com/v0/b/interior-designer-7d03e.appspot.com/o/AI_Character.png?alt=media&token=a3cb15ac-6dc3-45ba-9f70-13d78a5a7ef3" alt="John Doe" className="aboutme-img" />
           <div className="skill-tag tag1">UX/UI Design</div>
           <div className="skill-tag tag2">Mobile App Design</div>
           <div className="skill-tag tag3">Website Design</div>

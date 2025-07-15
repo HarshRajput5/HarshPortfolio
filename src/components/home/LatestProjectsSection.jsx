@@ -5,32 +5,32 @@ const projects = [
   {
     title: 'Gaming application with earning using Admob',
     tags: ['Mobile App','UI/UX Design','Firebase,\nAdmob'],
-    img: 'src/assets/cipher.png',
+    img: 'https://firebasestorage.googleapis.com/v0/b/interior-designer-7d03e.appspot.com/o/cipher.png?alt=media&token=4e5c95f6-b5d7-4580-ab2d-7b01646b17fd',
   },
   {
     title: 'IoT based application with live location integration with Google Map',
     tags: ['Mobile App','MQTT Protocol','Hive'],
-    img: 'src/assets/Iot.png',
+    img: 'https://firebasestorage.googleapis.com/v0/b/interior-designer-7d03e.appspot.com/o/Iot.png?alt=media&token=20b7b02e-9426-431f-9820-28cbdab42b8c',
   },
   {
     title: 'Quick Leads - QR Code Scanner Mobile Application',
     tags: ['Mobile App','QR Code Scanner','Restful API'],
-    img: 'src/assets/scan.png',
+    img: 'https://firebasestorage.googleapis.com/v0/b/interior-designer-7d03e.appspot.com/o/scan.png?alt=media&token=57bb655c-329e-4730-b58f-164d5d660b06',
   },
   // {
   //   title: 'Logistic Management System - Mobile Application',
   //   tags: ['Mobile App','Restful API','Firebase'],
-  //   img: 'src/assets/kp.png',
+  //   img: 'https://firebasestorage.googleapis.com/v0/b/interior-designer-7d03e.appspot.com/o/kp.png?alt=media&token=bf078843-b74e-4e79-b366-97980e854144',
   // },
   // {
   //   title: 'Shopping App – Ecommerce Mobile App Solution',
   //   tags: ['Mobile App', 'UI/UX Design','Wireframe'],
-  //   img: 'src/assets/stylish.png',
+  //   img: 'https://firebasestorage.googleapis.com/v0/b/interior-designer-7d03e.appspot.com/o/stylish.png?alt=media&token=34a9c43f-9420-47da-a592-7cc5c890aee7',
   // },  
   // {
   //   title: 'Tradeview - Stock Market Analysis Mobile Application',
   //   tags: ['Mobile App','Stock Market Analysis','Restful API'],
-  //   img: 'src/assets/tradeview.png',
+  //   img: 'https://firebasestorage.googleapis.com/v0/b/interior-designer-7d03e.appspot.com/o/tradeview.png?alt=media&token=0e8d1890-1c59-4227-bb4e-bfe0516ce639',
   // },
 ];
 

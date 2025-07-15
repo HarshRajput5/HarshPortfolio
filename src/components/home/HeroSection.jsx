@@ -23,7 +23,7 @@ const HeroSection = () => {
           </div>
           <div className="hero-image-block">
             <div className="hero-image-wrapper">
-              <img src="src\assets\AI_Character.png" alt="John Doe" className="hero-img" />
+              <img src="https://firebasestorage.googleapis.com/v0/b/interior-designer-7d03e.appspot.com/o/AI_Character.png?alt=media&token=a3cb15ac-6dc3-45ba-9f70-13d78a5a7ef3" alt="John Doe" className="hero-img" />
               <div className="hero-badge-circle">HIRE ME</div>
               <div className="hero-badge-ux">Web Developer</div>
               <div className="hero-badge-role">Flutter Developer</div>

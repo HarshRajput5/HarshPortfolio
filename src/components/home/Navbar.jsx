@@ -37,7 +37,7 @@ const Navbar = () => {
         <span className="hamburger-bar"></span>
       </button>
       <div className="navbar__profile">
-        <img src="src\assets\AI_Character.png" alt="John Doe" className="profile-img" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/interior-designer-7d03e.appspot.com/o/AI_Character.png?alt=media&token=a3cb15ac-6dc3-45ba-9f70-13d78a5a7ef3" alt="John Doe" className="profile-img" />
       </div>
       {/* Drawer */}
       <div className={`drawer ${drawerOpen ? 'open' : ''}`}> 
