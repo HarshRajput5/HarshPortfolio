@@ -55,7 +55,7 @@ export default function Footer() {
         </div> */}
       </div>
       <div className="footer-bottom">
-        <div>Copyright © 2024 <span className="footer-highlight">Harsh Rajput.</span> All Rights Reserved.</div>
+        <div>Copyright © 2025 <span className="footer-highlight">Harsh Rajput.</span> All Rights Reserved.</div>
         <div>
           <a href="#">User Terms & Conditions</a> | <a href="#">Privacy Policy</a>
         </div>

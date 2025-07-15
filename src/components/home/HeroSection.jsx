@@ -9,7 +9,7 @@ const HeroSection = () => {
               I'm <span className="highlight underline">Harsh Rajput,</span><br />
               Full-Service App <br />
               & Web Developer<br />
-              Based in INDIA.
+              {/* Based in INDIA. */}
             </h1>
             <p className="hero-desc">
             I'm Harsh Rajput, a passionate Flutter Developer building scalable, real-time mobile apps for startups and companies.
