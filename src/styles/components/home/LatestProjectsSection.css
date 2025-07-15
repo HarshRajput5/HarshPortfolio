@@ -13,7 +13,7 @@
     padding-right: 12px;
   }
   .latestprojects-img {
-    height: 140px;
+    height: 200px;
     width: 90vw;
 }
   .latestprojects-card {
@@ -124,7 +124,7 @@
 
 .latestprojects-img {
   width: 100%;
-  height: 200px;
+  height: 300px;
   object-fit: cover;
   border-radius: 16px;
   margin-bottom: 18px;
@@ -211,7 +211,7 @@
     max-width: 100%;
   }
   .latestprojects-img {
-    height: 140px;
+    height: 200px;
   }
   .latestprojects-viewall {
     width: 100%;

@@ -3,24 +3,34 @@ import '../styles/components/home/LatestProjectsSection.css';
 
 const projects = [
   {
-    title: 'Beauty Product – Ecommerce Mobile App Solution',
-    tags: ['UI/UX Design', 'App Design', 'Wireframe'],
-    img: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80',
+    title: 'Gaming application with earning using Admob',
+    tags: ['Mobile App','UI/UX Design','Firebase,\nAdmob'],
+    img: 'src/assets/cipher.png',
   },
   {
-    title: 'Beauty Product Mobile App Landing Page Design',
-    tags: ['UI/UX Design', 'Web Design', 'Wireframe'],
-    img: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80',
+    title: 'IoT based application with live location integration with Google Map',
+    tags: ['Mobile App','MQTT Protocol','Hive'],
+    img: 'src/assets/Iot.png',
   },
   {
-    title: 'Pet Food App – Ecommerce Mobile App Solution',
-    tags: ['UI/UX Design', 'App Design', 'Wireframe'],
-    img: 'https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=400&q=80',
+    title: 'Quick Leads - QR Code Scanner Mobile Application',
+    tags: ['Mobile App','QR Code Scanner','Restful API'],
+    img: 'src/assets/scan.png',
   },
   {
-    title: 'Pet Food Mobile App Landing Page Design',
-    tags: ['UI/UX Design', 'Web Design', 'Wireframe'],
-    img: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80',
+    title: 'Logistic Management System - Mobile Application',
+    tags: ['Mobile App','Restful API','Firebase'],
+    img: 'src/assets/kp.png',
+  },
+  {
+    title: 'Shopping App – Ecommerce Mobile App Solution',
+    tags: ['Mobile App', 'UI/UX Design','Wireframe'],
+    img: 'src/assets/stylish.png',
+  },  
+  {
+    title: 'Tradeview - Stock Market Analysis Mobile Application',
+    tags: ['Mobile App','Stock Market Analysis','Restful API'],
+    img: 'src/assets/tradeview.png',
   },
 ];
 
