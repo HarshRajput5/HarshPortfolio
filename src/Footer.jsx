@@ -14,7 +14,7 @@ export default function Footer() {
             <div className="footer-desc">I help businesses turn ideas into fast, beautiful, and scalable mobile apps using Flutter. From sleek UI to smooth functionality, I deliver clean, maintainable code that works. Let’s build something your users will love!</div>
             <div className="footer-socials">
               <a href="#" className="footer-social"><FaFacebookF /></a>
-              <a href="#" className="footer-social"><FaBehance /></a>
+              {/* <a href="#" className="footer-social"><FaBehance /></a> */}
               <a href="#" className="footer-social"><FaYoutube /></a>
               <a href="#" className="footer-social"><FaTwitter /></a>
               <a href="#" className="footer-social"><FaInstagram /></a>
@@ -25,7 +25,7 @@ export default function Footer() {
           <div className="footer-col">
             <div className="footer-col-title">Navigation</div>
             <ul>
-              <li><Link to="/">Home</Link></li>
+              <li><Link to="/" replace>Home</Link></li>
               <li><Link to="/service">Services</Link></li>
               <li><Link to="/" state={{ scrollTo: 'about' }}>About</Link></li>
               <li><Link to="/projects">Projects</Link></li>
@@ -56,9 +56,9 @@ export default function Footer() {
       </div>
       <div className="footer-bottom">
         <div>Copyright © 2025 <span className="footer-highlight">Harsh Rajput.</span> All Rights Reserved.</div>
-        <div>
+        {/* <div>
           <a href="#">User Terms & Conditions</a> | <a href="#">Privacy Policy</a>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
