@@ -59,14 +59,14 @@ const services = [
 export default function Service() {
   return (
     <>
-      <Title>Services | Harsh Rajput - Flutter, Android, iOS, React Developer</Title>
+      <Title>Skills | Harsh Rajput - Flutter, Android, iOS, React Developer</Title>
       <Meta name="description" content="Explore services by Harsh Rajput: Flutter, Android, iOS, React, and Website Development. High-quality, scalable, and beautiful apps for your business." />
-      <Meta name="keywords" content="Services, Flutter Developer, Android Developer, iOS Developer, React Developer, Website Developer, Mobile App Development, Web Development, Harsh Rajput, Freelancer" />
+      <Meta name="keywords" content="Skills, Flutter Developer, Android Developer, iOS Developer, React Developer, Website Developer, Mobile App Development, Web Development, Harsh Rajput, Freelancer" />
       <main className="service-main">
         <div className="service-header">
-          <span className="service-section-label">— Services</span>
+          <span className="service-section-label">— Skills</span>
           <h2 className="service-title">
-            <span className="service-title-highlight">Services</span> I <span className="service-title-bold">Provide</span>
+            <span className="service-title-highlight">Skills</span> I <span className="service-title-bold">Have</span>
           </h2>
         </div>
         <div className="service-grid">

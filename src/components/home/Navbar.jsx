@@ -25,9 +25,9 @@ const Navbar = () => {
         <span role="img" aria-label="logo">🌟</span> Harsh's Portfolio
       </div>
       <nav className="navbar__links">
-        <Link to="/service">Services</Link>
+        <Link to="/skills">Skills</Link>
         <a href="#about" onClick={e => { e.preventDefault(); handleSectionNav('about'); }}>About</a>
-        <a href="#skills" onClick={e => { e.preventDefault(); handleSectionNav('skills'); }}>Skills</a>
+        <a href="#skills" onClick={e => { e.preventDefault(); handleSectionNav('skills'); }}>Tools</a>
         <Link to="/projects">Projects</Link>
         <a href="#contact" onClick={e => { e.preventDefault(); handleSectionNav('contact'); }}>Contact</a>
       </nav>
@@ -43,7 +43,7 @@ const Navbar = () => {
       <div className={`drawer ${drawerOpen ? 'open' : ''}`}> 
         <button className="drawer__close" onClick={() => setDrawerOpen(false)} aria-label="Close menu">&times;</button>
         <nav className="drawer__links">
-          <Link to="/service" onClick={() => setDrawerOpen(false)}>Services</Link>
+          <Link to="/skills" onClick={() => setDrawerOpen(false)}>Skills</Link>
           <a href="#about" onClick={e => { e.preventDefault(); handleSectionNav('about'); }}>About</a>
           <a href="#skills" onClick={e => { e.preventDefault(); handleSectionNav('skills'); }}>Skills</a>
           <Link to="/projects" onClick={() => setDrawerOpen(false)}>Projects</Link>

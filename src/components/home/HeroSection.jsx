@@ -9,12 +9,12 @@ const HeroSection = () => {
             <div className="hero-label">Hello There!</div>
             <h1>
               I'm <span className="highlight underline">Harsh Rajput,</span><br />
-              Full-Service App <br />
+              Flutter App <br />
               & Web Developer<br />
               {/* Based in INDIA. */}
             </h1>
             <p className="hero-desc">
-            I'm Harsh Rajput, a passionate Flutter Developer building scalable, real-time mobile apps for startups and companies.
+            I'm Harsh Rajput, a Flutter Developer focused on building fast, scalable, and high-quality mobile applications.
             </p>
             <div className="hero-buttons">
               <button className="btn-primary"  onClick={() => navigate('/projects')}>

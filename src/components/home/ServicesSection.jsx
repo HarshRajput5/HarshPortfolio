@@ -40,13 +40,13 @@ export default function ServicesSection() {
       </div>
       <div className="services-header-row">
         <div>
-          {/* <div className="services-label">– Services</div> */}
+          {/* <div className="services-label">– Skills</div> */}
           <h2 className="services-title">
-            <span className="highlight">Services</span> <span className="normal">I Provide</span>
+            <span className="highlight">Professional</span> <span className="normal">Skills</span>
           </h2>
         </div>
         <button className="services-viewall" onClick={() => navigate('/service')}>
-          <span>View All Services</span>
+          <span>View All Skills</span>
           <span className="arrow">→</span>
         </button>
       </div>

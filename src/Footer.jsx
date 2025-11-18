@@ -26,7 +26,7 @@ export default function Footer() {
             <div className="footer-col-title">Navigation</div>
             <ul>
               <li><Link to="/" replace>Home</Link></li>
-              <li><Link to="/service">Services</Link></li>
+              <li><Link to="/skills">Skills</Link></li>
               <li><Link to="/" state={{ scrollTo: 'about' }}>About</Link></li>
               <li><Link to="/projects">Projects</Link></li>
               <li><Link to="/" state={{ scrollTo: 'contact' }}>Contact</Link></li>
